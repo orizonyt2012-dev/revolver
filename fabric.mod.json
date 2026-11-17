@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "blazerevolver",
+  "version": "${version}",
+  "name": "Blaze Revolver",
+  "description": "Punching targets with a Blaze Rod shuffles their hotbar and offhand with sound and purple particles.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.blazerevolver.BlazeRevolverMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
